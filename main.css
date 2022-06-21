@@ -1,0 +1,48 @@
+.container {
+}
+
+.container .heroes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: orange;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.container .heroes .hero {
+  width: 80px;
+  height: 84px;
+  margin: 4px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #555;
+  transform: skewX(-14deg);
+  transition: 0.2s;
+}
+
+.container .heroes .hero:hover {
+  background-color: #ff9c00;
+  transform: scale(1.3) skewX(-14deg);
+  transition: 0.2s;
+  z-index: 1;
+}
+
+.container .heroes .hero .image {
+}
+
+.honwrContainer {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hongwr {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
